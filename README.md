@@ -1,10 +1,16 @@
-# Getting Started with Create React App
+# Game of the Month (GOTM) Test
+![Preview](/preview.gif)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A proof of concept demo for a Game of the Month Discord bot, intended to host a chat where users can nominate games, create preview images using the nominations, run a vote using these preview images, and display the final result.
+
+This demo focuses on the building of preview images using information scraped with the ScreenScraper API. The user can type the name of a "nominated" game into the textbox. Upon submission, the demo will scrape information for the game and build up a preview image, using ScreenScraper data, with each nomination.
+
+## Installation
+1. Clone the repo to a local project directory. `git clone https://github.com/ryandavidmercado/gotm-test`
+2. Copy the sample environment file to .env. `cp .env.sample .env`
+3. Supply the environment file with your ScreenScraper dev_id and dev_password. `nano .env` ...
 
 ## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
@@ -38,33 +44,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
